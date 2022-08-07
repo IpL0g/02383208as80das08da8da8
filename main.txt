@@ -1,4 +1,4 @@
-local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/IpL0g/bestlegit/main/gamingchair?token=GHSAT0AAAAAABXGTCTHLMBZTCQLH447NOHAYXPWP7Q"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/IpL0g/bestlegit/main/gamingchair"))()
 Aiming.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")
