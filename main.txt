@@ -58,26 +58,3 @@ RunService:BindToRenderStep("AimLock", 0, function()
         CurrentCamera.CFrame = CFrame.lookAt(CurrentCamera.CFrame.Position, Hit.Position)
     end
     end)
-    
-    local mouse = player:GetMouse()
-
-mouse.KeyDown:Connect(function(key)
-
-    if key == "k" then
-        
-
-
-        if DaHoodSettings.SilentAim == false then
-        
-        DaHoodSettings.SilentAim = true
-        
-        else
-            
-        DaHoodSettings.SilentAim = false
-
-        end
-
-    end
-
-
-end)
